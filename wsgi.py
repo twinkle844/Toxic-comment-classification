@@ -8,7 +8,7 @@ import multiprocessing
  
 import gunicorn.app.base
  
-from main import app as handler_app
+from app import app as handler_app
 import os
  
  
