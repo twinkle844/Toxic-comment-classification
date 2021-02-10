@@ -8,7 +8,6 @@ Original file is located at
 """
 from flask_cors import CORS
 from flask import Flask, jsonify, make_response, request
-from flask_ngrok import run_with_ngrok
 
 app = Flask(__name__)
 CORS(app)
