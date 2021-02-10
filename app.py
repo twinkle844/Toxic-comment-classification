@@ -50,4 +50,6 @@ def getPredictions():
     return 'Sentence is Positive'
   else :
     return 'Sentence is Negative'
-app.run()
+#app.run()
+if __name__ == '__main__':
+    app.run(debug=False if os.environ.get("PORT") else True, port= int(os.environ.get("PORT") or 8080))#5000)
