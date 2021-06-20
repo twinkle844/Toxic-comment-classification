@@ -1,0 +1,12 @@
+{
+    "manifest_version":2,
+    "name":"Comment Detector",
+    "description":"Toxic comments Detector and warning",
+    "version":"1.0.0",
+    "icons": {"128":"images/favicon-128x128.png"},
+    "browser_action":{
+        "default_icon":"images/favicon-19x19.png",
+        "default_popup":"popup.html"  
+    },
+    "permissions":["<all_urls>", "tabs"]
+}
